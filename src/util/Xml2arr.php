@@ -5,7 +5,7 @@
  * Description : [xml array converter]
  */
 
-namespace rainbow\util;
+namespace rainb\util;
 // use
 
 class Xml2arr {

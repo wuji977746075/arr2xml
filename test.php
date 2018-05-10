@@ -1,5 +1,7 @@
 <?php
 require_once __DIR__ . '/vendor/autoload.php';
-use rainbow\util\Xml2arr;
+use rainb\util\Xml2arr;
 
-(new Xml2arr)->test();
+echo 'test';
+
+//(new Xml2arr)->test();
