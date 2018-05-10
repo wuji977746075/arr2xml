@@ -1,0 +1,15 @@
+{
+    "name": "rainbow/arr2xml",
+    "authors": [
+        {
+            "name": "rainbow",
+            "email": "977746075@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "rainbow\\util\\": "src/util/"
+        }
+    }
+}
