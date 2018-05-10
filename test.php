@@ -1,7 +1,13 @@
 <?php
 require_once __DIR__ . '/vendor/autoload.php';
-use rainb\util\Xml2arr;
+use rainb\util\Xml;
 
-echo 'test';
-
-//(new Xml2arr)->test();
+header('content-type:text/xml;charset:utf-8');
+$a = [
+  'name'=>'kkk',
+  'list'=>[
+    ['id'=>'p','id2'=>'p2'],
+    ['id'=>NULL]
+  ]
+];
+echo (new Xml)->arr2xml($a);
