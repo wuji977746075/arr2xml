@@ -1,5 +1,7 @@
 #lib
 rainbow : 977746075@qq.com
+1.0.0
+2018-05-11
 
 ## util
 main util
