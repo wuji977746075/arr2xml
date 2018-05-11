@@ -9,6 +9,7 @@
     "require": {},
     "minimum-stability": "dev",
     "autoload": {
+        "files": ["src/func/xml.php","src/func/string.php","src/func/array.php","src/func/util.php","src/func/util_tp5.php"],
         "psr-4": {
             "rainb\\util\\": "src/util/"
         }
